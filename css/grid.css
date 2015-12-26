@@ -1,0 +1,195 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.container .column {
+	float: left;
+	display: inline;
+}
+
+/* Nested Columns - remove margin/gutter from one column nested inside another column */
+.column.noleft {
+	margin-left: 0;
+}
+.column.noright {
+	margin-right: 0;
+}
+
+/* Grid */
+.container .one.column				{ width: 20px;}
+.container .two.column				{ width: 40px;}
+.container .three.column 			{ width: 60px;}
+.container .four.column 			{ width: 80px;}
+.container .five.column 			{ width: 100px;}
+.container .six.column				{ width: 120px;}
+.container .seven.column 			{ width: 140px;}
+.container .eight.column 			{ width: 160px;}
+.container .nine.column 			{ width: 180px;}
+.container .ten.column				{ width: 200px;}
+.container .eleven.column 			{ width: 220px;}
+.container .twelve.column 			{ width: 240px;}
+.container .thirteen.column			{ width: 260px;}
+.container .fourteen.column			{ width: 280px;}
+.container .fifteen.column			{ width: 300px;}
+.container .sixteen.column 			{ width: 320px;}
+.container .seventeen.column 		{ width: 340px;}
+.container .eighteen.column			{ width: 360px;}
+.container .nineteen.column			{ width: 380px;}
+.container .twenty.column			{ width: 400px;}
+.container .twenty-one.column 		{ width: 420px;}
+.container .twenty-two.column 		{ width: 440px;}
+.container .twenty-three.column		{ width: 460px;}
+.container .twenty-four.column		{ width: 480px;}
+.container .twenty-five.column		{ width: 500px;}
+.container .twenty-six.column 		{ width: 520px;}
+.container .twenty-seven.column 	{ width: 540px;}
+.container .twenty-eight.column		{ width: 560px;}
+.container .twenty-nine.column		{ width: 580px;}
+.container .thirty.column			{ width: 600px;}
+.container .thirty-one.column 		{ width: 620px;}
+.container .thirty-two.column 		{ width: 640px;}
+.container .thirty-three.column		{ width: 660px;}
+.container .thirty-four.column		{ width: 680px;}
+.container .thirty-five.column		{ width: 700px;}
+.container .thirty-six.column 		{ width: 720px;}
+.container .thirty-seven.column 	{ width: 740px;}
+.container .thirty-eight.column		{ width: 760px;}
+.container .thirty-nine.column		{ width: 780px;}
+.container .fourty.column			{ width: 800px;}
+.container .fourty-one.column 		{ width: 820px;}
+.container .fourty-two.column 		{ width: 840px;}
+.container .fourty-three.column		{ width: 860px;}
+.container .fourty-four.column		{ width: 880px;}
+.container .fourty-five.column		{ width: 900px;}
+.container .fourty-six.column 		{ width: 920px;}
+.container .fourty-seven.column 	{ width: 940px;}
+.container .fourty-eight.column		{ width: 960px;}
+.container .fourty-nine.column		{ width: 980px;}
+.container .fifty.column			{ width: 1000px;}
+
+/* Add Space (push) before a column. NOT Nested*/
+.container .push-1.column		{ margin-left: 20px;}
+.container .push-2.column		{ margin-left: 40px;}
+.container .push-3.column 		{ margin-left: 60px;}
+.container .push-4.column 		{ margin-left: 80px;}
+.container .push-5.column 		{ margin-left: 100px;}
+.container .push-6.column		{ margin-left: 120px;}
+.container .push-7.column 		{ margin-left: 140px;}
+.container .push-8.column 		{ margin-left: 160px;}
+.container .push-9.column 		{ margin-left: 180px;}
+.container .push-10.column		{ margin-left: 200px;}
+.container .push-11.column 		{ margin-left: 220px;}
+.container .push-12.column 		{ margin-left: 240px;}
+.container .push-13.column		{ margin-left: 260px;}
+.container .push-14.column		{ margin-left: 280px;}
+.container .push-15.column		{ margin-left: 300px;}
+.container .push-16.column 		{ margin-left: 320px;}
+.container .push-17.column 		{ margin-left: 340px;}
+.container .push-18.column		{ margin-left: 360px;}
+.container .push-19.column		{ margin-left: 380px;}
+.container .push-20.column		{ margin-left: 400px;}
+.container .push-21.column 		{ margin-left: 420px;}
+.container .push-22.column 		{ margin-left: 440px;}
+.container .push-23.column		{ margin-left: 460px;}
+.container .push-24.column		{ margin-left: 480px;}
+.container .push-25.column		{ margin-left: 500px;}
+.container .push-26.column 		{ margin-left: 520px;}
+.container .push-27.column 		{ margin-left: 540px;}
+.container .push-28.column		{ margin-left: 560px;}
+.container .push-29.column		{ margin-left: 580px;}
+.container .push-30.column		{ margin-left: 600px;}
+.container .push-31.column 		{ margin-left: 620px;}
+.container .push-32.column 		{ margin-left: 640px;}
+.container .push-33.column		{ margin-left: 660px;}
+.container .push-34.column		{ margin-left: 680px;}
+.container .push-35.column		{ margin-left: 700px;}
+.container .push-36.column 		{ margin-left: 720px;}
+.container .push-37.column 		{ margin-left: 740px;}
+.container .push-38.column		{ margin-left: 760px;}
+.container .push-39.column		{ margin-left: 780px;}
+.container .push-40.column		{ margin-left: 800px;}
+.container .push-41.column 		{ margin-left: 820px;}
+.container .push-42.column 		{ margin-left: 840px;}
+.container .push-43.column		{ margin-left: 860px;}
+.container .push-44.column		{ margin-left: 880px;}
+.container .push-45.column		{ margin-left: 900px;}
+.container .push-46.column 		{ margin-left: 920px;}
+.container .push-47.column 		{ margin-left: 940px;}
+.container .push-48.column		{ margin-left: 960px;}
+.container .push-49.column		{ margin-left: 980px;}
+.container .push-50.column		{ margin-left: 1000px;}
+
+/* Add Space (append) after a column NOT nested */
+.container .append-1.column			{ margin-right: 20px;}
+.container .append-2.column			{ margin-right: 40px;}
+.container .append-3.column 		{ margin-right: 60px;}
+.container .append-4.column 		{ margin-right: 80px;}
+.container .append-5.column 		{ margin-right: 100px;}
+.container .append-6.column			{ margin-right: 120px;}
+.container .append-7.column 		{ margin-right: 140px;}
+.container .append-8.column 		{ margin-right: 160px;}
+.container .append-9.column 		{ margin-right: 180px;}
+.container .append-10.column		{ margin-right: 200px;}
+.container .append-11.column 		{ margin-right: 220px;}
+.container .append-12.column 		{ margin-right: 240px;}
+.container .append-13.column		{ margin-right: 260px;}
+.container .append-14.column		{ margin-right: 280px;}
+.container .append-15.column		{ margin-right: 300px;}
+.container .append-16.column 		{ margin-right: 320px;}
+.container .append-17.column 		{ margin-right: 340px;}
+.container .append-18.column		{ margin-right: 360px;}
+.container .append-19.column		{ margin-right: 380px;}
+.container .append-20.column		{ margin-right: 400px;}
+.container .append-21.column 		{ margin-right: 420px;}
+.container .append-22.column 		{ margin-right: 440px;}
+.container .append-23.column		{ margin-right: 460px;}
+.container .append-24.column		{ margin-right: 480px;}
+.container .append-25.column		{ margin-right: 500px;}
+.container .append-26.column 		{ margin-right: 520px;}
+.container .append-27.column 		{ margin-right: 540px;}
+.container .append-28.column		{ margin-right: 560px;}
+.container .append-29.column		{ margin-right: 580px;}
+.container .append-30.column		{ margin-right: 600px;}
+.container .append-31.column 		{ margin-right: 620px;}
+.container .append-32.column 		{ margin-right: 640px;}
+.container .append-33.column		{ margin-right: 660px;}
+.container .append-34.column		{ margin-right: 680px;}
+.container .append-35.column		{ margin-right: 700px;}
+.container .append-36.column 		{ margin-right: 720px;}
+.container .append-37.column 		{ margin-right: 740px;}
+.container .append-38.column		{ margin-right: 760px;}
+.container .append-39.column		{ margin-right: 780px;}
+.container .append-40.column		{ margin-right: 800px;}
+.container .append-41.column 		{ margin-right: 820px;}
+.container .append-42.column 		{ margin-right: 840px;}
+.container .append-43.column		{ margin-right: 860px;}
+.container .append-44.column		{ margin-right: 880px;}
+.container .append-45.column		{ margin-right: 900px;}
+.container .append-46.column 		{ margin-right: 920px;}
+.container .append-47.column 		{ margin-right: 940px;}
+.container .append-48.column		{ margin-right: 960px;}
+.container .append-49.column		{ margin-right: 980px;}
+.container .append-50.column		{ margin-right: 1000px;}
+
+/* Clearing: This rule inserts a character after the container to expand the containing div. */
+
+.
+
+/* Use this clear class on Break elements */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}

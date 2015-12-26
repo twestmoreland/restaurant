@@ -1,0 +1,230 @@
+@font-face {
+	font-family: 'Candara';
+	src: url('fonts/Candara.eot');
+	src: local('Candara'),
+		url('fonts/Candara.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Candara.woff2') format('woff2'),
+		url('fonts/Candara.woff') format('woff'),
+		url('fonts/Candara.ttf') format('truetype'),
+		url('fonts/Candara.svg#Candara') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Claire Hand';
+	src: url('fonts/ClaireHand-Regular.eot');
+	src: local('Claire Hand Regular'), local('ClaireHand-Regular'),
+		url('fonts/ClaireHand-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ClaireHand-Regular.woff2') format('woff2'),
+		url('fonts/ClaireHand-Regular.woff') format('woff'),
+		url('fonts/ClaireHand-Regular.ttf') format('truetype'),
+		url('fonts/ClaireHand-Regular.svg#ClaireHand-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*-------------------ELEMENT SELECTORS-------------------*/
+body {
+	font-family: 'Josefin Slab';
+	background: url(../images/background.jpg) repeat-y;
+	background-position: center;
+	color: #C9C9C9;
+}
+img {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;
+}
+h1 {
+	font-family: 'Miltonian Tattoo';
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 40px;
+	position: relative;
+	top: -10px;
+	color: #fff;
+}
+p {
+	letter-spacing: 1.2px;
+	line-height: 30px;
+	font-weight: normal;
+}
+
+/*-------------------BACKGROUNDS-------------------*/
+.red-background {
+	background: #A61000;
+}
+.gray-background {
+	background-color: rgba(255, 255, 255, .1);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #E5E5E5;
+}
+
+
+/*-------------------POSITION-------------------*/
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+
+
+/*-------------------DISPLAY-------------------*/
+.hidden {
+	display: none;
+	transition-duration: .3s;
+}
+.inline {
+	display: inline;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+/*-------------------MARGIN-------------------*/
+.margintop-10 	{margin-top: 10px;}
+.margintop-20 	{margin-top: 20px;}
+.margintop-30 	{margin-top: 30px;}
+.margintop-40 	{margin-top: 40px;}
+.margintop-50 	{margin-top: 50px;}
+.margintop-60 	{margin-top: 60px;}
+.margintop-70 	{margin-top: 70px;}
+.margintop-80 	{margin-top: 80px;}
+.margintop-90 	{margin-top: 90px;}
+.margintop-100 	{margin-top: 100px;}
+.marginbottom-10 	{margin-bottom: 10px;}
+.marginbottom-20 	{margin-bottom: 20px;}
+.marginbottom-30 	{margin-bottom: 30px;}
+.marginbottom-40 	{margin-bottom: 40px;}
+.marginbottom-50 	{margin-bottom: 50px;}
+.marginbottom-60 	{margin-bottom: 60px;}
+.marginbottom-70 	{margin-bottom: 70px;}
+.marginbottom-80 	{margin-bottom: 80px;}
+.marginbottom-90 	{margin-bottom: 90px;}
+.marginbottom-100 	{margin-bottom: 100px;}
+
+
+/*-------------------NAVIGATION-------------------*/
+.house-icon {
+	background: url('../images/home-icon-hover.png') no-repeat;
+	background-size: 40px 40px;
+	position: absolute;
+	left: 940px;
+	width: 40px;
+	height: 40px;
+	z-index: 3;
+	transition-duration: .3s;
+}
+.house-icon:hover {
+	background: url('../images/home-icon.png') no-repeat;
+	background-size: 40px 40px;
+	transition-duration: .3s;
+}
+.logo {
+	position: relative;
+	top: -700px;
+	left: 350px;
+	width: 300px;
+	height: 300px;
+	z-index: 5;
+}
+.mainnav-submenu {
+	background-color: rgba(0, 0, 0, .7);
+	position: absolute;
+	left: 60px;
+	top: 270px;
+	width: 200px;
+	height: 150px;	
+	text-align: center;
+	z-index: 4;
+	transition-duration: .3s;
+}
+.mainnav-submenu a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Claire Hand';
+	letter-spacing: 2px;
+	transition-duration: .3s;
+}
+.mainnav-submenu a:hover {
+	color: #FF1900;
+	transition-duration: .3s;
+}
+nav img {
+	position: relative;
+	top: -30px;
+}
+nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+nav a.overlay {
+	margin: 0px;
+	background-color: rgba(56, 56, 55, .5);
+	display: block;
+	text-decoration: none;
+	float: left;
+	height: 65px;
+	color: #FF1900;
+	transition-duration: .3s;
+	padding-left: 110px;
+	padding-top: 640px;
+	font-family: 'Claire Hand';
+	font-size: 25px;
+	letter-spacing: 3px;
+	position: relative;
+	top: -30px;
+	z-index: 1;
+}
+nav a.overlay-jqhover {
+	background-color: rgba(56, 56, 55, 0);
+	transition-duration: .3s;
+	color: #fff;
+}
+nav a.overlay:hover {
+	background-color: rgba(56, 56, 55, 0);
+	transition-duration: .3s;
+	color: #fff;
+}
+.overlay.left{
+	width: 212px;
+}
+.overlay.center {
+	width: 229px;
+	padding-left: 123px;
+}
+.overlay.center:after {
+	width: 0;
+	height: 0;
+	position: relative;
+	top: 115px;
+	left: -100px;
+	border-left: 51px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 51px solid rgba(56, 56, 55, .5);
+	content: "";
+	transition-duration: .3s;
+}
+.overlay.center-jqhover:after {
+	width: 0;
+	height: 0;
+	position: relative;
+	top: 115px;
+	left: -100px;
+	border-left: 51px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 51px solid rgba(56, 56, 55, 0);
+	content: "";
+	transition-duration: .3s;
+}
+.overlay.right {
+	width: 216px;
+	z-index: 1;
+	position: relative;
+}
