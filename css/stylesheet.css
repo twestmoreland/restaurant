@@ -26,7 +26,7 @@
 
 /*-------------------ELEMENT SELECTORS-------------------*/
 body {
-	font-family: 'Josefin Slab';
+	font-family: 'Amaranth';
 	background: url(../images/background.jpg) repeat-y;
 	background-position: center;
 	color: #C9C9C9;
@@ -47,10 +47,41 @@ h1 {
 	top: -10px;
 	color: #fff;
 }
+h2 {
+	font-family: Lobster, cursive;
+	letter-spacing: 3px;
+}
 p {
 	letter-spacing: 1.2px;
 	line-height: 30px;
 	font-weight: normal;
+}
+a {
+	color: #FF1900;
+	text-decoration: none;
+	transition-duration: .3s;
+}
+a:hover {
+	color: #fff;
+	transition-duration: .3s;
+}
+.active {
+	color: #fff;
+}
+
+/*-------------------BACKGROUNDS-------------------*/
+.button {
+	background: #A61000;
+	color: #fff;
+	border-radius: 5%;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	padding-top: 7px;
+}
+.button:hover {
+	background: #FF1900;
+	color: #A61000;
 }
 
 /*-------------------BACKGROUNDS-------------------*/
@@ -72,7 +103,25 @@ p {
 .absolute {
 	position: absolute;
 }
-
+.floatright {
+	float: right;
+}
+.text-center {
+	text-align: center;
+	width: 100%;
+}
+.flex-center-vertically {
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;  
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+   -webkit-flex-direction: column;
+  flex-direction: column;
+  height: 400px;
+}
 
 /*-------------------DISPLAY-------------------*/
 .hidden {
@@ -108,10 +157,30 @@ p {
 .marginbottom-80 	{margin-bottom: 80px;}
 .marginbottom-90 	{margin-bottom: 90px;}
 .marginbottom-100 	{margin-bottom: 100px;}
+.marginleft-10 		{margin-left: 10px;}
+.marginleft-20 		{margin-left: 20px;}
+.marginleft-30 		{margin-left: 30px;}
+.marginleft-40 		{margin-left: 40px;}
+.marginleft-50 		{margin-left: 50px;}
+.marginleft-60 		{margin-left: 60px;}
+.marginleft-70 		{margin-left: 70px;}
+.marginleft-80 		{margin-left: 80px;}
+.marginleft-90 		{margin-left: 90px;}
+.marginleft-100 	{margin-left: 100px;}
+.marginright-10 	{margin-right: 10px;}
+.marginright-20 	{margin-right: 20px;}
+.marginright-30 	{margin-right: 30px;}
+.marginright-40 	{margin-right: 40px;}
+.marginright-50 	{margin-right: 50px;}
+.marginright-60 	{margin-right: 60px;}
+.marginright-70 	{margin-right: 70px;}
+.marginright-80 	{margin-right: 80px;}
+.marginright-90 	{margin-right: 90px;}
+.marginright-100 	{margin-right: 100px;}
 
 
 /*-------------------NAVIGATION-------------------*/
-.house-icon {
+.house-icon-active {
 	background: url('../images/home-icon-hover.png') no-repeat;
 	background-size: 40px 40px;
 	position: absolute;
@@ -121,8 +190,23 @@ p {
 	z-index: 3;
 	transition-duration: .3s;
 }
-.house-icon:hover {
+.house-icon-active:hover {
 	background: url('../images/home-icon.png') no-repeat;
+	background-size: 40px 40px;
+	transition-duration: .3s;
+}
+.house-icon {
+	background: url('../images/home-icon.png') no-repeat;
+	background-size: 40px 40px;
+	position: absolute;
+	left: 940px;
+	width: 40px;
+	height: 40px;
+	z-index: 3;
+	transition-duration: .3s;
+}
+.house-icon:hover {
+	background: url('../images/home-icon-hover.png') no-repeat;
 	background-size: 40px 40px;
 	transition-duration: .3s;
 }
@@ -168,10 +252,8 @@ nav a.overlay {
 	margin: 0px;
 	background-color: rgba(56, 56, 55, .5);
 	display: block;
-	text-decoration: none;
 	float: left;
 	height: 65px;
-	color: #FF1900;
 	transition-duration: .3s;
 	padding-left: 110px;
 	padding-top: 640px;
@@ -190,7 +272,6 @@ nav a.overlay-jqhover {
 nav a.overlay:hover {
 	background-color: rgba(56, 56, 55, 0);
 	transition-duration: .3s;
-	color: #fff;
 }
 .overlay.left{
 	width: 212px;
@@ -227,4 +308,16 @@ nav a.overlay:hover {
 	width: 216px;
 	z-index: 1;
 	position: relative;
+}
+
+/*-------------------FOOTER-------------------*/
+footer li {
+	display: inline;
+	float: left;
+	height: 30px;
+	padding-top: 10px;
+}
+footer li:nth-child(2) {
+	float: right !important;
+	margin-right: 40px;
 }
