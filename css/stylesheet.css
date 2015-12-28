@@ -53,6 +53,7 @@ h1 {
 h2 {
 	font-family: Lobster, cursive;
 	letter-spacing: 3px;
+	color: #DBDBDB;
 }
 p, li {
 	letter-spacing: 1.2px;
@@ -427,13 +428,15 @@ nav a.overlay:hover {
 
 
 .blockquote {
-	border-top: 1px solid
+	border-left: 3px solid #FF1900;
 }
 .blockquote p {
 	font-family: Amaranth;
 	font-size: 20px;
 	line-height: 30px;
 	letter-spacing: 1px;
+	margin: 20px 20px 20px 20px;
+	color: #9A9A9A;
 }
 
 /*-------------------FOOTER-------------------*/
