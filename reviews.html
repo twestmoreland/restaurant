@@ -2,132 +2,295 @@
 <html>
 	<head>
 		<title>Reviews Home - New Orleans BBQ</title>
+		<link href='https://fonts.googleapis.com/css?family=Amaranth|Miltonian+Tattoo|Lobster|Lobster+Two' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</head>
-	<body>
+	<body class="container column fifty">
 		<header>
-			<nav>
-				<ul>
-					<li><a href="../index.html">Home</a></li>
-					<li><a href="index.html">Reviews</a></li>
-					<ul>
-						<li><a href="awarded-pitmasters.html">Awarded Pitmasters</a></li>
-						<li><a href="restaurant-reviews.html">Restaurant Reviews</a></li>
-						<li><a href="restaurant-guide.html">Restaurant Guide</a></li>
+			<div class="red-background">
+				<nav class="relative">
+					<ul class="absolute">
+						<li class="inline"><a href="recipes/index.html" class="overlay left"> Recipes</a>
+							<ul class="hidden mainnav-submenu">
+								<li class="marginbottom-10 margintop-20"><a href="recipes/bbq-tips-tricks.html">BBQ Tips &amp; Tricks</a></li>
+								<li class="marginbottom-10"><a href="recipes/pick-sides.html">Choosing Sides</a></li>
+								<li class="marginbottom-10"><a href="recipes/gadgets.html">Gadgets</a></li>
+								<li class="marginbottom-20"><a href="recipes/contest.html">Contest</a></li>
+							</ul>
+						</li>
+						<li class="inline"><a href="reviews.html" class="overlay center active">Reviews</a></li>
+						<li class="inline"><a href="classes.html" class="overlay right">Classes</a></li>
+						<li class="inline"><a href="index.html" class="house-icon-active"></a></li>
+						<li><img src="images/logo.png" class="logo"></li>
 					</ul>
-					<li><a href="../recipes/index.html">Recipes</a></li>
-					<ul>
-						<li><a href="../recipes/bbq-tips-tricks.html">BBQ Tips &amp Tricks</a></li>
-						<li><a href="../recipes/pick-sides.html">Picking Sides</a></li>
-						<li><a href="../recipes/gadgets.html">Gadgets</a></li>
-					</ul>
-					<li><a href="../classes.html">Classes</a></li>
-					<li><a href="../contest.html">Contest</a></li>
-				</ul>
-			</nav>
-			<h1>My Job</h1>
-			<section>
+					<img src="images/nav-header.png" class="column fifty">
+				</nav>
+				<h1>My Job: Reviews</h1>
+			</div>
+			<section class="column push-4 append-4">
 				<p>If you don&rsquo;t already know, my job is to go to barbeque restaurants and make good barbeque pitmasters better in six weeks. I travel all over New Orleans looking for the people who need my help the most. In some cases, the pitmasters really do their best work and turn out some barbecue that&rsquo;s ten times better than what it was. Other times, they just don&rsquo;t get anywhere. The students that turn out the best of the best, though, are given the title of awarded pitmaster. Here is where you get to hear those stories, as well as hear about which restaurants are the best to go to get your barbecue fix, what tools are best for getting that barbecue cooked, and just some great tips for making any good pitmaster, better.</p>
 			</section>
 		</header>
 
-		<section>
-			<header>
-				<h2>Awarded Pitmasters</h2>
+		<section class="column fifty margintop-100">
+			<header class="column fourty-eight push-1 append-1 gray-background ">
+				<h2 class="text-center">Awarded Pitmasters</h2>
 			</header>
-			<section>
-				<a href="awarded-pitmasters.html#Beaver">
-					<header>
-						<h3>A Pain in the Drearier</h3>
-					</header>
-					<section>
-						<p>Beaver Drearier is the owner and pitmaster of The Pig&rsquo;s Drearier in downtown New Orleans. When I cam across his restaurant, I thought I had stepped into hog heaven. There were beautiful smells of smoked meats and spicy sausages coming from the kitchen. When I got my sausage and smoked ham though, I was not impressed. It was over spiced, the meat was tough, and the ham barely tasted as if it had been smoked at all...</p>
-					</section>
-				</a>
+			<section class="column push-2 append-2 margintop-40">
+				<img src="images/beaver.jpg" class="circle column">
+				<header class="column push-2">
+					<h2>A Pain in the Drearier</h2>
+				</header>
+				<section class="column twenty-seven push-2">
+					<p>Beaver Drearier is the owner and pitmaster of The Pig&rsquo;s Drearier in downtown New Orleans. When I cam across his restaurant, I thought I had stepped into hog heaven. There were beautiful smells of smoked meats and spicy sausages coming from the kitchen. When I got my sausage and smoked ham though, I was not impressed.</p>
+					<p>It was over spiced, the meat was tough, and the ham barely tasted as if it had been smoked at all. When I started working with Beaver, he showed no competency at all when handling the meats. We had to start from square one. By the end of week two, he could pick out the right meat for the job (I learned to teach this as step one after working with Rustik Jones). At week four, he could marinade, baste or rub down his meats to perfection. Week six, we were still working on not opening the grill before the meat was ready. After some thought, I decided to extend my time with him to help him out on this particular subject. Finally, by the time three months had rolled around, he was capable of making decent barbecue.</p>
+					<p>I have visited since I first helped Beaver make decent barbecue and he has improved exponentially. I would recommend his restaurant to anyone I know. It&rsquo;s also fun to go just so you can say you&rsquo;ve been to The Pig&rsquo;s Drearier and watch the funny looks you&rsquo;ll get.</p>
+				</section>
+			
 			</section>
-			<section>
-				<a href="awarded-pitmasters.html#Jones">
-					<header>
-						<h3>Jone&rsquo;s Brisket Dilema</h3>
-					</header>
-					<section>
-						<p>The first pitmaster I ever worked with was a man named Rustik Jones. He could cook any rack of ribs to perfection, but his brisket and salmon were a flop. I would work with him for several hours in a day teaching him how to make a brisket work, but it just wouldn&rsquo;t click. The Salmon he got better at within the first week, but the brisket, we were still working on by week four...</p>
-					</section>
-				</a>
+			<section class="column push-2 append-2 margintop-40">
+				<img src="images/hipster.jpg" class="column circle">
+				<header class="column push-2">
+					<h2>Jone&rsquo;s Brisket Dilema</h2>
+				</header>
+				<section class="column twenty-seven push-2">
+					<p>The first pitmaster I ever worked with was a man named Rustik Jones. He could cook any rack of ribs to perfection, but his brisket and salmon, were a flop. I would work with him for several hours in a day teaching him how to make a brisket work, but it just wouldn&rsquo;t click. The Salmon he got better at within the first week, but the brisket, we were still working on by week four.</p>
+					<p> Finally, in the last week of cooking, I looked at him and said, &ldquo;Rustik, I don&rsquo;t know what to do with you. Every other piece of your barbecue is good, you baste it right, use the right rubs, and even keep the right temperature the whole time. Why is it that you can&rsquo;t cook a good brisket?&rdquo;</p>
+					<p> Rustik just shrugged and said, &ldquo;No idea.&rdquo; That week he closed his restaurant and devoted all his time to making briskets. I, of course, had to play judge and instructor. After chowing my way through enough meat to make a carnivore sick, Rustik pulled out the final brisket of our career together, and I knew; It was exactly what I had been trying to teach him how to do for the past two months.</p>
+					<p>&ldquo;How&rsquo;d you do it?&rdquo; I asked him.</p>
+					<p>&ldquo;I picked out my own damn meat,&rdquo; he said.</p>
+				</section>
+			
 			</section>
+
+			<section class="column margintop-40" id="simeon">
+				<img src="images/simeon.jpg" class="circle column">	
+				<header class="column push-2">
+					<h2>Simeon&rsquo;s Change of Pace</h2>
+				</header>
+				<section class="column twenty-seven push-2">
+					<p>Simeon Jet is a pitmaster from South Carolina bringing his best to New Orleans. He is the owner of Hog Heaven. The little restaurant lies on the outskirts of town and boasts heaps of different kinds of wood for all kinds of smoking. When I came across him, he could cook the best darn meat you ever put in your mouth, but never, ever, ever, I mean never, could you eat any rubs or sauces he put on his meats.</p>
+					<p> Almost all of them tasted like a chemical experiment gone wrong. The worst part was that when I pointed this out to him, he said that&rsquo;s how it was supposed to taste and he challenged me to a cook-off. I hemmed and hawed and told him it wouldn&rsquo;t be fair, but, in the end, I graciously accepted. The next week, we had a barbecue show down in which several of Simeon&rsquo;s family members came to help and many of my previous students came to judge. The meat was laid in front of the judges and not thirty minutes later, Simeon&rsquo;s sauces and rubs were deemed disgusting. He stomped off in a huff. A few weeks later, though, I got a call. Simeon&rsquo;s business was running into the ground and he needed the help, bad.</p>
+					<p> Everyone was referring him to me, so he sucked up his pride and called. I will forever respect him for doing such a thing. I started teaching him not twenty four hours after that and barely even a week later, he had the best friggin&rsquo; barbecue I&rsquo;ve ever tasted laid down on the tables for all to admire, and eat.</p>
+				</section>
+			
+					
+				</section>
 		</section>
-	
-		<section>
-			<header>
-				<h2>Restaurant Reviews</h2>
+		
+		<section class="column fourty-eight push-1 append-1 margintop-100">
+			<header class="gray-background">
+				<h2 class="text-center">Restaurant Reviews</h2>
 			</header>
-			<article>
-				<a href="restaurant-reviews.html#BlueOakBBQ">
-					<h3>Blue Oak BBQ</h3>
-					<p>5 out of 5</p>
-					<p>Blue Oak is a restaurant adept at marrying the barbecue with bar snack traditions.</p>
-					<p>Casual Dress</p>
-				</a>	
-			</article>
-			<article>
-				<a href="restaurant-reviews.html#HillbillyBBQ">
-					<h3>Hillbilly Bar-B-Q</h3>
-					<p>5 out of 5</p>
-					<p>Hillbilly was born as a take-out joint inside a cinderblock structure tucked behind a River Ridge bar. Larry Wyatt's barbecue is as good as ever.</p>
-					<p>Casual Dress</p>
-				</a>	
-			</article>
-			<article>
-				<a href="restaurant-reviews.html#TheJoint">
-					<h3>The Joint</h3>
-					<p>4.5 out of 5</p>
-					<p>The Joint has become the best all-around barbecue restaurant in New Orleans. Keep your eyes open for the smoked pastrami, a mid-week special that sells out quickly.</p>
-					<p>Casual Dress</p>
-				</a>
-				
-			</article>
-			<article>
-				<a href="restaurant-reviews.html#La23BBQ">
-					<h3>LA 23 BBQ</h3>
-					<p>4.5 out of 5</p>
-					<p>You might mistake the place for a snowball stand – it's that small – if not for the smoker positioned in front and the chopped hardwood stacked against a nearby shed. The Texas-style barbecue is served during lunch only for as long as supplies last, so go early. </p>
-					<p>Casual Dress</p>
-				</a>	
-			</article>
-			<article>
-				<a href="restaurant-reviews.html#McClureBBQ">
-					<h3>McClure's Barbecue</h3>
-					<p>4.5 out of 5</p>
-					<p>By the narrow standards of the barbecue joint form, McClure's covers a lot of ground. It features sauces from all corners of the Barbecue Nation (including Nola East!), tacos, a country take on chicken Cordon Bleu and one of the best cheeseburgers in New Orleans.</p>
-					<p>Cocktail Attire</p>
-				</a>	
-			</article>
-			<article>
-				<a href="restaurant-reviews.html#NOLA">
-					<h3>NOLA Smokehouse</h3>
-					<p>4 out of 5</p>
-					<p>The thin layers of char encasing the sinewy, free-range and natural meats – the pork ribs and brisket as well as the pork butts he pulls apart for sandwiches and platters -- contain worlds of flavor themselves, and the relatively small selection of sides are well crafted.</p>
-					<p>Formal Dress Attire</p>
-				</a>
-			</article>
-			<article>
-				<a href="restaurant-reviews.html#PapaBBQ">
-					<h3>Papa's Backyard Bar-B-Q</h3>
-					<p>4 out of 5</p>
-					<p>The meat, cooked crisp and fragrant in an indoor, wood-fired smoker, is a fine and poignant tribute to the owner's long lost son.</p>
-					<p>Casual Dress</p>
-				</a>
-			</article>
-			<article>
-				<a href="restaurant-reviews.html#WalkerSouthern">
-					<h3>Walker's Southern Style BBQ</h3>
-					<p>4 out of 5</p>
-					<p>The po-boy great sandwich is essentially pulled pork by another name, and the rest of the smoked meat at this lunch-only barbecue restaurant lives up to its high standard.</p>
-					<p>Casual Dress</p>
-				</a>
-			</article>
+
+			<section class="column push-1 append-1 margintop-40">
+
+				<article class="column">
+					<img src="images/bar.jpg" class="column fourteen circle margintop-20">
+					<div class="column twenty-seven push-2 append-1">
+						<h2>Blue Oak BBQ</h2>
+						<p>New Orleans has a rich recent history of serious barbecue flowering inside (or very near) established drinking establishments. Blue Oak, which occupies the small kitchen inside Chickie Wah Wah music club, is at this moment the best of the species. It is particularly adept at marrying the barbecue and bar snack traditions. So go ahead: Order the nachos.</p>
+						<p>Best &lsquo;cue: Beef brisket, smoked housemade sausage, smoked chicken wings.</p>
+						<p>Best sides: Roasted Brussels sprouts, ginger-sesame slaw.</p>
+					</div>
+					
+				</article>
+
+				<article class="column margintop-40">	
+					<img src="images/bbq-shack.jpg" class="column fourteen circle margintop-20">
+					<div class="column twenty-seven push-2 append-1">
+						<h2>Hillbilly Bar-B-Q</h2>
+						<p>Hillbilly was born as a take-out joint inside a cinderblock structure tucked behind a River Ridge bar. In 2011, Kentucky-native Larry Wyatt moved his operation into a markedly more commodious space attached to the Kamp bar in Harahan. His barbecue is as good as ever.</p>
+						<p>Best &lsquo;cue: Beef brisket, chicken, pull pork sandwich</p>
+						<p>Best sides: Corn salad, cole slaw</p>
+					</div>
+				</article>
+
+				<article class="column margintop-40">	
+					<img src="images/bbq.jpg" class="column fourteen circle margintop-20">
+					<div class="column twenty-seven push-2 append-1">
+						<h2>The Joint</h2>
+						<p>In 2004, Pete and Jenny Breen opened the Joint on Poland Avenue, where it grew into an increasingly inviting if cramped outpost for barbecue. Since moving to Mazant Street in 2012, The Joint has become the best all-around barbecue restaurant in New Orleans. You still have to order at the cash register, but there is table service after that, and the menu, which is solid from top-to-bottom, is now abetted by a full bar. Keep your eyes open for the smoked pastrami, a mid-week special that sells out quickly.</p>
+						<p>Best &lsquo;cue: Pork ribs, beef brisket, smoked sausage sandwich</p>
+						<p>Best sides: Cole slaw, macaroni and cheese</p>
+					</div>
+				</article>
+
+				<article class="column margintop-40">	
+					<img src="images/bbq2.jpg" class="column fourteen circle margintop-20">
+					<div class="column twenty-seven push-2 append-1">
+						<h2>LA 23 BBQ</h2>
+						<p>LA 23 BBQ backs up to the railroad tracks and levee across the highway from the entrance to the Naval Air Station Joint Reserve Base in Belle Chasse, accounting for the high percentage of customers who arrive in uniform. You might mistake the place for a snowball stand &mdash; it&lsquo;s that small &mdash; if not for the smoker positioned in front and the chopped hardwood stacked against a nearby shed. Bobby Monsted lll and Aaron Gelfand opened the place after passing the location innumerable times on their way to work as fishing guides in Venice. The Texas-style barbecue is served during lunch only for as long as supplies last, so go early. It would be depressing to miss out on anything LA 23 has to offer. The partners plan to open a bigger restaurant in the same spot in late 2015, early 2016. </p>
+						<p>Best &lsquo;cue: smoked chicken, pork ribs, beef brisket</p>
+						<p>Best sides: Macaroni and cheese, coleslaw, barbecue beans</p>
+					</div>
+				</article>
+
+				<article class="column margintop-40">	
+					<img src="images/bbq3.jpg" class="column fourteen circle margintop-20">
+					<div class="column twenty-seven push-2 append-1">
+						<h2>McClure's Barbecue</h2>
+						<p>By the narrow standards of the barbecue joint form, McClure's covers a lot of ground. It features sauces from all corners of the Barbecue Nation (including Nola East!), tacos, a country take on chicken Cordon Bleu and one of the best cheeseburgers in New Orleans. The smoked meat is still the primary reason to visit. And by the time you read this, you will likely be able to get it at a second location inside the new Nola Brewing Tap Room.</p>
+						<p>Best &lsquo;cue: Pork ribs, beef brisket, smoked sausage sandwich</p>
+						<p>Best sides: Collard greens, macaroni and cheese</p>
+					</div>
+				</article>
+
+				<article class="column margintop-40">	
+					<img src="images/bbq4.jpg" class="column fourteen circle margintop-20">
+					<div class="column twenty-seven push-2 append-1">
+						<h2>NOLA Smokehouse</h2>
+						<p>Rob Bechtold, a former executive sous chef at K-Paul&lsquo;s, brings a chefly obsession for detail to his bare-bones barbecue place in the Irish Channel. The thin layers of char encasing the sinewy, free-range and natural meats &mdash; the pork ribs and brisket as well as the pork butts he pulls apart for sandwiches and platters &mdash; contain worlds of flavor themselves, and the relatively small selection of sides are well crafted. Smoked prime rib nights are set to resume in the fall.</p>
+						<p>Best &lsquo;cue: Burnt ends, pulled pork, smoked sausage</p>
+						<p>Best sides: Sweet corn spoonbread, barbecue beans</p>
+					</div>
+				</article>
+
+				<article class="column margintop-40">	
+					<img src="images/bbq5.jpg" class="column fourteen circle margintop-20">
+					<div class="column twenty-seven push-2 append-1">
+						<h2>Papa's Backyard Bar-B-Q</h2>
+						<p>Ronald Robinson&lsquo;s Slidell barbecue restaurant doubles as a memorial to his son Ronald Jr., who died in 2010. The meat, cooked crisp and fragrant in an indoor, wood-fired smoker, is a fine and poignant tribute. And the meat isn&lsquo;t the only reason to seek out this unassuming, strip mall restaurant off the main drag. The chunky bread pudding, made from sandwich buns, stuffed with chocolate chips and served under a warm rum sauce, should land on your list of favorites.</p>
+						<p>Best &lsquo;cue: Ribs, pulled pork sandwich, smoked chicken wings</p>
+						<p>Best sides/desserts: Red beans and rice, candied yams, bread pudding</p>
+					</div>
+				</article>
+
+				<article class="column margintop-40">	
+					<img src="images/bbq6.jpg" class="column fourteen circle margintop-20">
+					<div class="column twenty-seven push-2 append-1">
+						<h2>Walker's Southern Style BBQ</h2>
+						<p>Walker&lsquo;s is home of the cochon de lait po-boy sold at Jazz Fest, which is to say the sandwich that essentially put what might be called &ldquo;Louisiana-style barbecue&rdquo; on the map in New Orleans. That great sandwich is essentially pulled pork by another name, and the rest of the smoked meat at this lunch-only barbecue restaurant lives up to its high standard.</p>
+						<p>Best &lsquo;cue: Beef brisket, pork ribs, cochon de lait po-boy</p>
+						<p>Best sides: Baked beans, mustard greens</p>
+					</div>
+				</article>
+
+			</section>
+			
 		</section>
 
-		<footer>
+		<section class="column margintop-100">
+				<header class="column push-1 fourty-eight gray-background">
+					<h2 class="text-center">Restaurant Guide</h2>
+				</header>
+				
+				<div class="column push-2">
+					<section class="column push-1 fourteen margintop-40">
+						<article class="relative">
+							<div class="absolute column fourteen text-center flex-center-vertically height280">
+								<h3>Blue Oak BBQ</h3>
+								<p>5 out of 5</p>
+								<p>Casual Dress</p>	
+								<p>$2-$18</p>
+							</div>
+							<img src="images/bar-guide.jpg" class="circle column fourteen">
+						</article>
+					</section>	
+
+					<section class="column push-1 fourteen margintop-40">
+						<article class="relative">
+							<div class="absolute column fourteen text-center flex-center-vertically height280">
+								<h3>The Joint</h3>
+								<p>4.5 out of 5</p>
+								<p>Casual Dress</p>
+								<p>$11-$30</p>
+							</div>
+							<img src="images/bbq-shack-guide.jpg" class="circle column fourteen">
+						</article>
+					</section>	
+
+					<section class="column push-1 fourteen margintop-40">
+						<article class="relative">
+							<div class="absolute column fourteen text-center flex-center-vertically height280">
+								<h3>Camellia Grill</h3>
+								<p>4.5 out of 5</p>
+								<p>Under $10</p>
+								<p>Casual Dress</p>
+							</div>
+							<img src="images/bbq-guide.jpg" class="circle column fourteen">
+						</article>
+					</section>
+
+					<section class="column push-1 fourteen margintop-40">
+						<article class="relative">
+							<div class="absolute column fourteen text-center flex-center-vertically height280">
+								<h3>Chickie Wah Wah</h3>
+								<p>4.5 out of 5</p>
+								<p>Casual Dress</p>
+								<p>$5-$29</p>
+							</div>
+							<img src="images/bbq2-guide.jpg" class="circle column fourteen">
+						</article>
+					</section>
+
+					<section class="column push-1 fourteen margintop-40">
+						<article class="relative">
+							<div class="absolute column fourteen text-center flex-center-vertically height280">
+								<h3>Saucy's BBQ</h3>
+								<p>4.5 out of 5</p>
+								<p>Casual Dress</p>
+								<p>$3-$13</p>
+							</div>
+							<img src="images/bbq3-guide.jpg" class="circle column fourteen">
+						</article>
+					</section>
+
+					<section class="column push-1 fourteen margintop-40">
+						<article class="relative">
+							<div class="absolute column fourteen text-center flex-center-vertically height280">
+								<h3>Boucherie</h3>
+								<p>4.5 out of 5</p>
+								<p>Formal Dress</p>
+								<p>$11-$30</p>
+							</div>
+							<img src="images/bbq4-guide.jpg" class="circle column fourteen">
+						</article>
+					</section>
+
+					<section class="column push-1 fourteen margintop-40">
+						<article class="relative">
+							<div class="absolute column fourteen text-center flex-center-vertically height280">
+								<h3>Nola Smokehouse</h3>
+								<p>4 out of 5</p>
+								<p>Casual Dress</p>
+								<p>$11-$30</p>
+							</div>
+							<img src="images/bbq5-guide.jpg" class="circle column fourteen">
+						</article>
+					</section>
+
+					<section class="column push-1 fourteen margintop-40">
+						<article class="relative">
+							<div class="absolute column fourteen text-center flex-center-vertically height280">
+								<h3>VooDoo BBQ &amp; Grill</h3>
+								<p>4 out of 5</p>
+								<p>Casual Dress</p>
+								<p>$5-$20</p>
+							</div>
+							<img src="images/bbq6-guide.jpg" class="circle column fourteen">
+						</article>
+					</section>
+
+					<section class="column push-1 fourteen margintop-40">
+						<article class="relative">
+							<div class="absolute column fourteen text-center flex-center-vertically height280">
+								<h3>McClure's Barbecue</h3>
+								<p>4 out of 5</p>
+								<p>Casual Dress</p>
+								<p>$11-$30</p>
+							</div>
+							<img src="images/bbq7-guide.jpg" class="circle column fourteen">
+						</article>
+					</section>
+						
+				</div>
+			</section>
+
+		<footer >
 			<ul>
 				<li>&copy; Copyright Brisket Bob Inc.</li>
 				<li><a href="../contact-us.html">Contact Us</a></li>

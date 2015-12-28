@@ -38,6 +38,9 @@ img {
 li {
 	list-style: none;
 }
+ol li:nth-child(n+2) {
+	margin-top: 40px;
+}
 h1 {
 	font-family: 'Miltonian Tattoo';
 	text-align: center;
@@ -51,7 +54,7 @@ h2 {
 	font-family: Lobster, cursive;
 	letter-spacing: 3px;
 }
-p {
+p, li {
 	letter-spacing: 1.2px;
 	line-height: 30px;
 	font-weight: normal;
@@ -90,6 +93,9 @@ a:hover {
 .red-background {
 	background: #A61000;
 }
+.redtranslucent-background {
+	background: rgba(255, 5, 0, .2);
+}
 .gray-background {
 	background-color: rgba(255, 255, 255, .1);
 	padding-top: 40px;
@@ -117,12 +123,11 @@ a:hover {
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;  
-	display: flex;
+	display: flex !important;
 	-webkit-justify-content: center;
 	justify-content: center;
 	-webkit-flex-direction: column;
 	flex-direction: column;
-	height: 400px;
 }
 
 /*-------------------DISPLAY-------------------*/
@@ -149,6 +154,56 @@ a:hover {
 .margintop-80 	{margin-top: 80px;}
 .margintop-90 	{margin-top: 90px;}
 .margintop-100 	{margin-top: 100px;}
+.margintop-110 	{margin-top: 110px;}
+.margintop-120 	{margin-top: 120px;}
+.margintop-130 	{margin-top: 130px;}
+.margintop-140 	{margin-top: 140px;}
+.margintop-150 	{margin-top: 150px;}
+.margintop-160 	{margin-top: 160px;}
+.margintop-170 	{margin-top: 170px;}
+.margintop-180 	{margin-top: 180px;}
+.margintop-190 	{margin-top: 190px;}
+.margintop-200 	{margin-top: 200px;}
+.margintop-210 	{margin-top: 210px;}
+.margintop-220 	{margin-top: 220px;}
+.margintop-230 	{margin-top: 230px;}
+.margintop-240 	{margin-top: 240px;}
+.margintop-250 	{margin-top: 250px;}
+.margintop-260 	{margin-top: 260px;}
+.margintop-270 	{margin-top: 270px;}
+.margintop-280 	{margin-top: 280px;}
+.margintop-290 	{margin-top: 290px;}
+.margintop-300 	{margin-top: 300px;}
+.margintop-310 	{margin-top: 310px;}
+.margintop-320 	{margin-top: 320px;}
+.margintop-330 	{margin-top: 330px;}
+.margintop-340 	{margin-top: 340px;}
+.margintop-350 	{margin-top: 350px;}
+.margintop-360 	{margin-top: 360px;}
+.margintop-370 	{margin-top: 370px;}
+.margintop-380 	{margin-top: 380px;}
+.margintop-390 	{margin-top: 390px;}
+.margintop-400 	{margin-top: 400px;}
+.margintop-410 	{margin-top: 410px;}
+.margintop-420 	{margin-top: 420px;}
+.margintop-430 	{margin-top: 430px;}
+.margintop-440 	{margin-top: 440px;}
+.margintop-450 	{margin-top: 450px;}
+.margintop-460 	{margin-top: 460px;}
+.margintop-470 	{margin-top: 470px;}
+.margintop-480 	{margin-top: 480px;}
+.margintop-490 	{margin-top: 490px;}
+.margintop-500 	{margin-top: 500px;}
+.margintop-510 	{margin-top: 510px;}
+.margintop-520 	{margin-top: 520px;}
+.margintop-530 	{margin-top: 530px;}
+.margintop-540 	{margin-top: 540px;}
+.margintop-550 	{margin-top: 550px;}
+.margintop-560 	{margin-top: 560px;}
+.margintop-570 	{margin-top: 570px;}
+.margintop-580 	{margin-top: 580px;}
+.margintop-590 	{margin-top: 590px;}
+.margintop-600 	{margin-top: 600px;}
 .marginbottom-10 	{margin-bottom: 10px;}
 .marginbottom-20 	{margin-bottom: 20px;}
 .marginbottom-30 	{margin-bottom: 30px;}
@@ -179,6 +234,17 @@ a:hover {
 .marginright-80 	{margin-right: 80px;}
 .marginright-90 	{margin-right: 90px;}
 .marginright-100 	{margin-right: 100px;}
+
+
+/*-------------------HEIGHT-------------------*/
+.height280 {height: 280px;}
+.height400 {height: 400px;}
+
+
+/*-------------------LIST STYLES-------------------*/
+.numbered li {
+	list-style-type: decimal;
+}
 
 
 /*-------------------NAVIGATION-------------------*/
@@ -226,7 +292,7 @@ a:hover {
 	left: 60px;
 	top: 270px;
 	width: 200px;
-	height: 150px;	
+	height: 200px;	
 	text-align: center;
 	z-index: 4;
 	transition-duration: .3s;
@@ -286,7 +352,7 @@ nav a.overlay:hover {
 	width: 0;
 	height: 0;
 	position: relative;
-	top: 115px;
+	top: 114px;
 	left: -100px;
 	border-left: 51px solid transparent;
 	border-right: 50px solid transparent;
@@ -317,7 +383,8 @@ footer li {
 	display: inline;
 	float: left;
 	height: 30px;
-	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 footer li:nth-child(2) {
 	float: right !important;
