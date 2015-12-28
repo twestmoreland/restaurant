@@ -106,8 +106,8 @@ a:hover {
 }
 .gray-background {
 	background-color: rgba(255, 255, 255, .1);
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	color: #E5E5E5;
 }
 .darkgray-background-translucent {
@@ -121,6 +121,9 @@ a:hover {
 }
 .absolute {
 	position: absolute;
+}
+.fixed {
+	position: fixed;
 }
 .floatright {
 	float: right;
@@ -397,6 +400,40 @@ nav a.overlay:hover {
 	width: 216px;
 	z-index: 1;
 	position: relative;
+}
+
+
+/*-------------------SIDE NAV-------------------*/
+.sidenav {
+	background: rgba(0, 0, 0, .4);
+	padding: 20px;
+}
+.sidenav a {
+	color: #C9C9C9;
+}
+.sidenav a:hover {
+	color: #FF1900;
+}
+.sidenav li {
+	border-bottom: 1px solid #474747;
+	max-width: 160px;
+}
+.sidenav li:nth-child(n+2) {
+	margin-top: 20px;
+}
+.sidenav li:nth-child(13) {
+	border-bottom: 0px;
+}
+
+
+.blockquote {
+	border-top: 1px solid
+}
+.blockquote p {
+	font-family: Amaranth;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 1px;
 }
 
 /*-------------------FOOTER-------------------*/

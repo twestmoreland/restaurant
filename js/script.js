@@ -16,4 +16,25 @@ $(document).ready(function(){
 		$('.mainnav-submenu').addClass('hidden');
 		$('.overlay.left').removeClass('overlay-jqhover');
 	});
+
+	$.fn.followTo = function (pos) {
+	    var $this = this,
+	        $window = $(window);
+
+	    $window.scroll(function (e) {
+	        if ($window.scrollTop() < pos) {
+	            $this.css({
+	                position: 'absolute',
+	                top: pos
+	            });
+	        } else {
+	            $this.css({
+	                position: 'fixed',
+	                top: 0
+	            });
+	        }
+	    });
+	};
+
+	$('.sidenav').followTo(1066);
 });
