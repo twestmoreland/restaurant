@@ -110,6 +110,9 @@ a:hover {
 	padding-bottom: 40px;
 	color: #E5E5E5;
 }
+.darkgray-background-translucent {
+	background: rgba(0, 0, 0, .2);
+}
 
 
 /*-------------------POSITION-------------------*/
@@ -127,15 +130,24 @@ a:hover {
 	width: 100%;
 }
 .flex-center-vertically {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;  
+	display: -webkit-box !important;
+	display: -moz-box !important;
+	display: -ms-flexbox !important;
+	display: -webkit-flex !important;  
 	display: flex !important;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-flex-direction: column;
-	flex-direction: column;
+	-webkit-justify-content: center !important;
+	justify-content: center !important;
+	-webkit-flex-direction: column !important;
+	flex-direction: column !important;
+}
+.flex-center-horizontally {
+	display: -webkit-box !important;
+	display: -moz-box !important;
+	display: -ms-flexbox !important;
+	display: -webkit-flex !important;
+	-webkit-justify-content: center !important;
+	display: flex !important;
+	justify-content: center !important;
 }
 
 /*-------------------DISPLAY-------------------*/
