@@ -72,6 +72,14 @@ a:hover {
 	color: #fff;
 }
 
+
+/*-------------------HEADINGS-------------------*/
+.large-text {
+	font-size: 23px;
+	letter-spacing: 3px;
+}
+
+
 /*-------------------BACKGROUNDS-------------------*/
 .button {
 	background: #A61000;
