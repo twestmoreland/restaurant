@@ -119,6 +119,13 @@ a:hover {
 }
 
 
+/*-------------------BORDERS-------------------*/
+.border-right {
+	border-right: 1px solid #fff;
+	padding-bottom: 20px;
+}
+
+
 /*-------------------POSITION-------------------*/
 .relative {
 	position: relative;
