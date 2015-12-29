@@ -72,6 +72,9 @@ a:hover {
 .active {
 	color: #fff;
 }
+.bodytext {
+	z-index: 0;
+}
 
 
 /*-------------------HEADINGS-------------------*/
@@ -153,6 +156,10 @@ a:hover {
 	display: flex !important;
 	justify-content: center !important;
 }
+.nofloat {
+	float: none !important;
+}
+
 
 /*-------------------DISPLAY-------------------*/
 .hidden {
@@ -408,6 +415,7 @@ nav a.overlay:hover {
 .sidenav {
 	background: rgba(0, 0, 0, .4);
 	padding: 20px;
+	z-index: 2;
 }
 .sidenav a {
 	color: #C9C9C9;
@@ -427,6 +435,7 @@ nav a.overlay:hover {
 }
 
 
+/*-------------------BLOCKQUOTE-------------------*/
 .blockquote {
 	border-left: 3px solid #FF1900;
 }
@@ -438,6 +447,8 @@ nav a.overlay:hover {
 	margin: 20px 20px 20px 20px;
 	color: #9A9A9A;
 }
+
+
 
 /*-------------------FOOTER-------------------*/
 footer li {

@@ -36,5 +36,11 @@ $(document).ready(function(){
 	    });
 	};
 
-	$('.sidenav').followTo(1066);
+	$('.sidenav').followTo(1072);
+
+
+	$( "aside > ul > li > a" ).click(function() {
+	 	alert( "Handler for .click() called." );
+	 	('body').scrollTop(6000);
+	});
 });
