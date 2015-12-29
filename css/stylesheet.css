@@ -486,13 +486,8 @@ nav a.overlay:hover {
 
 /*-------------------FOOTER-------------------*/
 footer li {
-	display: inline;
-	float: left;
 	height: 30px;
 	margin-bottom: 10px;
 	margin-top: 10px;
-}
-footer li:nth-child(2) {
-	float: right !important;
-	margin-right: 40px;
+	text-align: center;
 }
