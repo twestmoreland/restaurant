@@ -2,40 +2,51 @@
 <html>
 	<head>
 		<title>Recipe Contest - New Orleans BBQ</title>
+		<link href='https://fonts.googleapis.com/css?family=Amaranth|Miltonian+Tattoo|Lobster|Lobster+Two' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../css/grid.css">
+		<link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/script.js"></script>
 	</head>
-	<body>
+	<body class="container column fifty">
 		<header>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="reviews/index.html">Reviews</a></li>
-					<ul>
-						<li><a href="reviews/awarded-pitmasters.html">Awarded Pitmasters</a></li>
-						<li><a href="reviews/restaurant-reviews.html">Restaurant Reviews</a></li>
-						<li><a href="reviews/restaurant-guide.html">Restaurant Guide</a></li>
+			<div class="red-background">
+				<nav class="relative">
+					<ul class="absolute">
+						<li class="inline"><a href="index.html" class="overlay left active"> Recipes</a>
+							<ul class="hidden mainnav-submenu">
+								<li class="marginbottom-10 margintop-20"><a href="bbq-tips-tricks.html">BBQ Tips &amp; Tricks</a></li>
+								<li class="marginbottom-10"><a href="pick-sides.html">Choosing Sides</a></li>
+								<li class="marginbottom-10"><a href="gadgets.html">Gadgets</a></li>
+								<li class="marginbottom-20"><a href="contest.html">Contest</a></li>
+							</ul>
+						</li>
+						<li class="inline"><a href="../reviews.html" class="overlay center">Reviews</a></li>
+						<li class="inline"><a href="../classes.html" class="overlay right">Classes</a></li>
+						<li class="inline"><a href="../index.html" class="house-icon"></a></li>
+						<li><img src="../images/logo.png" class="logo"></li>
 					</ul>
-					<li><a href="recipes/index.html">Recipes</a></li>
-					<ul>
-						<li><a href="recipes/bbq-tips-tricks.html">BBQ Tips &amp; Tricks</a></li>
-						<li><a href="recipes/pick-sides.html">Picking Sides</a></li>
-						<li><a href="recipes/gadgets.html">Gadgets</a></li>
-					</ul>
-					<li><a href="classes.html">Classes</a></li>
-					<li><a href="contest.html">Contest</a></li>
-				</ul>
-			</nav>
-			<h1>Brisket Bob&rsquo;s Greatest BBQ Contest</h1>
-			<p>How good is your barbeque? Pretty good? Then send in a recipe to enter and win our contest of best pitmaster in New Orleans. Submit your sizzling hot or ultra-cool recipes for a chance to win 3 great prizes. </p>
+					<img src="../images/nav-header.png" class="column fifty">
+				</nav>
+				<h1>Brisket Bob&rsquo;s Greatest BBQ Contest</h1>
+			</div>
+			<section class="column push-4 append-4">
+				<p>How good is your barbeque? Pretty good? Then send in a recipe to enter and win our contest of best pitmaster in New Orleans. Submit your sizzling hot or ultra-cool recipes for a chance to win 3 great prizes. </p>
+			</section>
 		</header>
 
-		<section>
+		<section class="column push-1 append-1">
 			<article>
-				<header><h2>Prizes</h2></header>
-				<p>Three winners will be chosen. The grand prize is a $25 gift certificate to amazon.com. The 2 runners up each win a $10 gift certificate to Amazon.com.</p>
+				<header>
+					<h2>Prizes</h2>
+				</header>
+				<p class="column push-3 append-3">Three winners will be chosen. The grand prize is a $25 gift certificate to amazon.com. The 2 runners up each win a $10 gift certificate to Amazon.com.</p>
 			</article>
 			<article>
-				<header><h2>Recipe Contest Rules and Guidelines</h2></header>
-				<ol>
+				<header>
+					<h2>Recipe Contest Rules and Guidelines</h2>
+				</header>
+				<ol class="column push-3 append-3">
 					<li>Each recipe must be submitted between July 1st 2010 and midnight July 31st 2010.</li>
 					<li>Each recipe must contain at least one of Whole Food&rsquo;s signature ingredients.</li>
 					<li>All the ingredients must be available at Whole Food&rsquo;s.</li>
@@ -45,7 +56,7 @@
 			</article>
 		</section>
 
-		<section>
+		<section class="column fourty-two push-4 append-4">
 			<form action="#" method="post">
 				<p>First Name:
 					<input type="text" name="First Name" />
