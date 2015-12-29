@@ -114,8 +114,11 @@ a:hover {
 	padding-bottom: 10px;
 	color: #E5E5E5;
 }
-.darkgray-background-translucent {
+.gray-imageoverlay {
 	background: rgba(0, 0, 0, .2);
+}
+.darkgray-background-translucent {
+	background: rgba(0, 0, 0, .7);
 }
 
 
@@ -129,6 +132,10 @@ a:hover {
 /*-------------------POSITION-------------------*/
 .relative {
 	position: relative;
+}
+.adjust-position {
+	position: relative;
+	top: -30px;
 }
 .absolute {
 	position: absolute;
@@ -159,9 +166,18 @@ a:hover {
 	display: -moz-box !important;
 	display: -ms-flexbox !important;
 	display: -webkit-flex !important;
-	-webkit-justify-content: center !important;
 	display: flex !important;
+	-webkit-justify-content: center !important;
 	justify-content: center !important;
+}
+.flex-bottom {
+	display: -webkit-box !important;
+	display: -moz-box !important;
+	display: -ms-flexbox !important;
+	display: -webkit-flex !important;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: flex-end;
 }
 .nofloat {
 	float: none !important;
@@ -279,6 +295,7 @@ a:hover {
 .height200 {height: 200px;}
 .height280 {height: 280px;}
 .height400 {height: 400px;}
+.height620 {height: 620px;}
 
 
 /*-------------------LIST STYLES-------------------*/
