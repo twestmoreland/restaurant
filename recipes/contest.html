@@ -36,66 +36,66 @@
 		</header>
 
 		<section class="column push-1 append-1">
-			<article>
-				<header class="gray-background text-center large-text">
-					<h2>Prizes</h2>
-				</header>
-				<p class="column push-3 append-3">Three winners will be chosen. The grand prize is a $25 gift certificate to amazon.com. The 2 runners up each win a $10 gift certificate to Amazon.com.</p>
-			</article>
-			<article class="column">
+			<article class="margintop-60">
 				<header class="gray-background text-center large-text">
 					<h2>Recipe Contest Rules and Guidelines</h2>
 				</header>
-				<ol class="column push-3 append-3">
-					<li>Each recipe must be submitted between July 1st 2010 and midnight July 31st 2010.</li>
-					<li>Each recipe must contain at least one of Whole Food&rsquo;s signature ingredients.</li>
-					<li>All the ingredients must be available at Whole Food&rsquo;s.</li>
-					<li>Recipes must be your own creation and all submissions to the site become property of Whole Food&rsquo;s Fan.com</li>
-					<li>Submitters must be 21 years or older and reside the United States. Entries will be judged on creativity, taste, and general appeal.</li>
-				</ol>
+				<section class="column push-3 append-3 margintop-40">
+					<p>Three winners will be chosen. The grand prize is a $25 gift certificate to amazon.com. The 2 runners up each win a $10 gift certificate to Amazon.com.</p>
+					<ol>
+						<li class="margintop-0">Each recipe must be submitted between July 1st 2010 and midnight July 31st 2010.</li>
+						<li class="margintop-0">Each recipe must contain at least one of Whole Food&rsquo;s signature ingredients.</li>
+						<li class="margintop-0">All the ingredients must be available at Whole Food&rsquo;s.</li>
+						<li class="margintop-0">Recipes must be your own creation and all submissions to the site become property of Whole Food&rsquo;s Fan.com</li>
+						<li class="margintop-0">Submitters must be 21 years or older and reside the United States. Entries will be judged on creativity, taste, and general appeal.</li>
+					</ol>
+				</section>
 			</article>
 		</section>
 
 		<section class="column fourty-two push-4 append-4">
 			<form action="#" method="post">
-				<p>First Name:
-					<input type="text" name="First Name" />
-				</p>
-				<p>Last Name:
-					<input type="text" name="Last Name" />
-				</p>
-				<p>Email Adress
-					<input type="text" name="Email Adress" />
-				</p>
-				<p>Recipe Name:
-					<input type="text" name="Recipe Name" />
-				</p>
-				<p>Upload Recipe File:
-					<input type="file" name="Recipe">
-				</p>
-				<p>or input mauanlly</p>
-				<p>Ingredients:
-					<ol>
-						<li><input type="text" name="Ingredient 1"></li>
-						<li><input type="text" name="Ingredient 2"></li>
-						<li><input type="text" name="Ingredient 3"></li>
-						<li><input type="text" name="Ingredient 4"></li>
-						<li><input type="text" name="Ingredient 5"></li>
-						<li><input type="text" name="Ingredient 6"></li>
-						<li><input type="text" name="Ingredient 7"></li>
-						<li><input type="text" name="Ingredient 8"></li>
-						<li><input type="text" name="Ingredient 9"></li>
-						<li><input type="text" name="Ingredient 10"></li>
-					</ol>
-				</p>
-				<p>Cooking Steps:
-					<ol>
-						<li><input type="textarea" name="Step 1" col="20" row="4"></li>
-						<li><input type="textarea" name="Step 2" col="20" row="4"></li>
-						<li><input type="textarea" name="Step 3" col="20" row="4"></li>
-					</ol>
-				</p>
-				<input type="submit" value="submit">
+				<div class="column twenty-five push-10">
+					<div class="column ten">
+						<p>First Name:
+							<input type="text" name="First Name" />
+						</p>
+						<p>Last Name:
+							<input type="text" name="Last Name" />
+						</p>
+					</div>
+					<div class="column ten push-5">
+						<p>Email Adress
+							<input type="text" name="Email Adress" />
+						</p>
+						<p>Recipe Name:
+							<input type="text" name="Recipe Name" />
+						</p>
+					</div>
+					<p>Upload Recipe File:
+						<input type="file" name="Recipe">
+					</p>
+					<p>or input mauanlly</p>
+					<div class="column ten">
+						<p>Ingredients:
+							<ol>
+								<li><input type="text" name="Ingredient 1"></li>
+							</ol>
+						</p>
+						<input type="submit" name="ingredient" value="Add Ingredient">
+					</div>
+					<div class="column ten push-5">
+						<p>Cooking Steps:
+							<ol>
+								<li><input type="textarea" name="Step 1" col="20" row="4"></li>
+							</ol>
+						</p>
+						<input type="submit" name="cooking steps" value="Add Cooking Steps">
+					</div>
+				</div>
+				<div class="column fourty-two flex-center-horizontally margintop-40">
+					<input type="submit" value="submit">
+				</div>
 			</form>
 		</section>
 
