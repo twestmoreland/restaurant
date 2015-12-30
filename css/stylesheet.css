@@ -49,6 +49,7 @@ h1 {
 	position: relative;
 	top: -10px;
 	color: #fff;
+	margin: 0px 20px 20px 20px;
 }
 h2 {
 	font-family: Lobster, cursive;
@@ -181,7 +182,7 @@ a:hover {
 	display: -ms-flexbox !important;
 	display: -webkit-flex !important;
 	display: flex;
-	-webkit-align-items: center;
+	-webkit-align-items: flex-end;
 	align-items: flex-end;
 }
 .nofloat {
