@@ -72,9 +72,6 @@ a:hover {
 .active {
 	color: #fff;
 }
-.bodytext {
-	z-index: 0;
-}
 
 
 /*-------------------HEADINGS-------------------*/
@@ -481,7 +478,6 @@ nav a.overlay:hover {
 	margin: 20px 20px 20px 20px;
 	color: #9A9A9A;
 }
-
 
 
 /*-------------------FOOTER-------------------*/
