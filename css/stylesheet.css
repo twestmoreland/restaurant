@@ -27,7 +27,7 @@
 /*-------------------ELEMENT SELECTORS-------------------*/
 body {
 	font-family: 'Candara';
-	background: url(../images/background.jpg) repeat-y;
+	background: url(../images/background.jpg) repeat-y #E5E5E5;
 	background-position: center;
 	color: #C9C9C9;
 }
@@ -85,12 +85,17 @@ a:hover {
 .button {
 	background: #A61000;
 	color: #fff;
-	border-radius: 5%;
+	border-radius: 3px;
 	width: 200px;
 	height: 30px;
 	text-align: center;
 	padding-top: 7px;
+	cursor: pointer;
 	transition-duration: .3s;
+}
+.button p {
+	margin: 0px;
+	padding: 0px;
 }
 .button:hover {
 	background: #FF1900;
@@ -110,6 +115,9 @@ a:hover {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #E5E5E5;
+}
+.gray-background.rounded {
+	border-radius: 3px;
 }
 .gray-imageoverlay {
 	background: rgba(0, 0, 0, .2);
@@ -183,7 +191,7 @@ a:hover {
 
 /*-------------------DISPLAY-------------------*/
 .hidden {
-	display: none;
+	display: none !important;
 	transition-duration: .3s;
 }
 .inline {
@@ -307,6 +315,12 @@ a:hover {
 /*-------------------LIST STYLES-------------------*/
 .numbered li {
 	list-style-type: decimal;
+}
+.dot li {
+	list-style-type: disc;
+}
+.no-style {
+	list-style-type: none !important;
 }
 
 
@@ -478,6 +492,52 @@ nav a.overlay:hover {
 	margin: 20px 20px 20px 20px;
 	color: #9A9A9A;
 }
+
+
+/*-------------------FORUM-------------------*/
+input.contest {
+	background: rgba(36, 34, 33, 0);
+	border: none;
+	margin: 0px;
+	height: 30px;
+	padding: 5px 20px 5px 20px;
+	border-bottom: 1px solid #515251;
+	color: #C9C9C9;
+	font-family: candara;
+	font-size: 16px;
+}
+form.column.fifteen {
+	background: rgba(36, 34, 33, .73);
+	padding: 5px 0 20px 0;
+	width: 260px !important;
+	border-radius: 3px;
+}
+form a div.button {
+	margin-left: 10px;
+}
+input[type='file'] {
+	margin-top: 10px;
+}
+
+
+/*-------------------POP-UP-------------------*/
+.pop-up {
+	background: rgba(36, 34, 33, .9);
+	padding-bottom: 20px;
+	position: absolute;
+	z-index: 7;
+}
+.lightbox {
+	background: rgba(0, 0, 0, .7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}
+
+
 
 
 /*-------------------FOOTER-------------------*/
